@@ -96,6 +96,9 @@ my-app/
 * Improve **mobile responsiveness**
 
 ---
+## **Demo**
+
+You can view the live demo here: [Live Demo on GitHub Pages](https://subashkatwal.github.io/React-To-Do-App/)
 
 ## **Author**
 
