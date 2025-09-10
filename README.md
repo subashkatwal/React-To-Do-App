@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# CRUD To-Do App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple **CRUD (Create, Read, Update, Delete) To-Do App** built with **React** and **JavaScript**, featuring a clean and interactive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Features**
 
-### `npm start`
+* Add new tasks ✅
+* Edit existing tasks ✏️
+* Delete tasks ❌
+* Dynamic task list display
+* Responsive and clean UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Demo**
+---
 
-### `npm test`
+## **Getting Started**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Prerequisites**
 
-### `npm run build`
+* Node.js (v14 or higher recommended)
+* npm (comes with Node.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Installation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+```bash
+git clone <your-repo-url>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project folder:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd my-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser at [http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## **Project Structure**
 
-### Analyzing the Bundle Size
+```
+my-app/
+├─ src/
+│  ├─ App.js        # Main React component
+│  ├─ App.css       # Styling
+│  └─ index.js      # Entry point
+├─ public/
+│  └─ index.html
+└─ package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## **How It Works**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Add Task:** Type in the input box and click **Add**.
+2. **Edit Task:** Click **Edit** next to a task, modify text in the input, then click **Update**.
+3. **Delete Task:** Click **Delete** to remove a task.
+4. The list dynamically updates using React’s **state** and **map()**.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Technologies Used**
 
-### Deployment
+* React (Functional Components + Hooks)
+* JavaScript (ES6+)
+* CSS (Flexbox & basic styling)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## **Future Improvements**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Save tasks in **localStorage** to persist after refresh
+* Add **task completion** feature
+* Add **sorting / filtering** options
+* Improve **mobile responsiveness**
+
+---
+
+## **Author**
+
+* Your Name
+* Contact / GitHub link
