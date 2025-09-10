@@ -16,9 +16,6 @@ A simple **CRUD (Create, Read, Update, Delete) To-Do App** built with **React** 
 
 ## **Demo**
 
-![App Screenshot](screenshot.png)
-*(Add your screenshot here if you want)*
-
 ---
 
 ## **Getting Started**
