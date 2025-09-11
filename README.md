@@ -102,5 +102,4 @@ You can view the live demo here: [Live Demo on GitHub Pages](https://subashkatwa
 
 ## **Author**
 
-* Your Name
-* Contact / GitHub link
+* Subash Katwal
